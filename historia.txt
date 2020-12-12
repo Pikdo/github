@@ -2,3 +2,4 @@ Jose Alejandro Picado Brenes
 33 años . 10 meses
 Costarricense
 Aprendiendo github en Platzi
+Curso de Git y github
