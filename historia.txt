@@ -3,3 +3,21 @@ Jose Alejandro Picado Brenes
 Costarricense
 Aprendiendo github en Platzi
 Curso de Git y github
+Notas del curso:
+
+- git init crea (stage y repo local)
+- git add .  (agrega cambios al stage)
+- git commint -m "mensaje" (agrega cambios al repo local)
+- git status (ver estado de los cambios)
+- git log (ver todos los commits realizados)
+- git config --global user.name o user.email (cambiar usuario/correo)
+- git diff (ver diferencias entre commits)
+- git reset (volver a un commit pasado definitivamente en todo)
+   -- hard: Borra todos los cambios hasta el commit
+   -- soft: Borra los cambios hasta el commit pero guarda en stage
+   HEAD quitar archivos del stage
+- git rm --cache (Elimina archivos del stage)
+- git rm --force (Elimina archivos de todo git y disco duro)
+
+áreas de trabajo
+Working copy->stage->repo_local->repo_remoto
