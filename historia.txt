@@ -19,5 +19,5 @@ Notas del curso:
 - git rm --cache (Elimina archivos del stage)
 - git rm --force (Elimina archivos de todo git y disco duro)
 
-áreas de trabajo
-Working copy->stage->repo_local->repo_remoto
+Áreas de trabajo
+Working copy->staging->repo_local->repo_remoto(gitlab, github, servidor personalizado)
