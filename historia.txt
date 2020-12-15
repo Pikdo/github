@@ -20,6 +20,6 @@ Notas del curso:
 - git rm --force (Elimina archivos de todo git y disco duro)
 - git branch <nombre_branch> (permite crear un branch)
 - git checkout <nombre_branch> (permite cambiar de branch)
-- git switch <nombre_branch> (permite ...)
+- git switch <nombre_branch> (parece que permite cambiar de branch)
 Áreas de trabajo
 Working copy->staging->repo_local->repo_remoto(gitlab, github, servidor personalizado)
