@@ -21,5 +21,7 @@ Notas del curso:
 - git branch <nombre_branch> (permite crear un branch)
 - git checkout <nombre_branch> (permite cambiar de branch)
 - git switch <nombre_branch> (parece que permite cambiar de branch)
+- git merge <nombre_branch> (Trae los cambios desde nombre_branch al branch actual y los combina)
+      -- En caso de conflicto se debe corregir manualmente
 Áreas de trabajo
 Working copy->staging->repo_local->repo_remoto(gitlab, github, servidor personalizado)
