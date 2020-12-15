@@ -18,6 +18,8 @@ Notas del curso:
    HEAD quitar archivos del stage
 - git rm --cache (Elimina archivos del stage)
 - git rm --force (Elimina archivos de todo git y disco duro)
-
+- git branch <nombre_branch> (permite crear un branch)
+- git checkout <nombre_branch> (permite cambiar de branch)
+- git switch <nombre_branch> (permite ...)
 Áreas de trabajo
 Working copy->staging->repo_local->repo_remoto(gitlab, github, servidor personalizado)
