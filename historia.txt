@@ -9,7 +9,8 @@ Notas del curso:
 - git add .  (agrega cambios al stage)
 - git commint -m "mensaje" (agrega cambios al repo local)
 - git status (ver estado de los cambios)
-- git log (ver todos los commits realizados)
+- git show <nombre_archivo>  (Muestra el contendo y los cambios que a sufrido el archivo)
+- git log (ver la historia de los commits realizados)
 - git config --global user.name o user.email (cambiar usuario/correo)
 - git diff (ver diferencias entre commits)
 - git reset (volver a un commit pasado definitivamente en todo)
@@ -18,10 +19,16 @@ Notas del curso:
    HEAD quitar archivos del stage
 - git rm --cache (Elimina archivos del stage)
 - git rm --force (Elimina archivos de todo git y disco duro)
+
+BRANCHES
 - git branch <nombre_branch> (permite crear un branch)
 - git checkout <nombre_branch> (permite cambiar de branch)
 - git switch <nombre_branch> (parece que permite cambiar de branch)
 - git merge <nombre_branch> (Trae los cambios desde nombre_branch al branch actual y los combina)
       -- En caso de conflicto se debe corregir manualmente
+-- git branch -d <nombre_branch>   (Elimina un branch,pero válida si se ha hecho merge de sus cambios)
+-- git branch -D <nombre_branch>   (Elimina un branch, pero no válida el merge de sus cambios)
+
+
 Áreas de trabajo
 Working copy->staging->repo_local->repo_remoto(gitlab, github, servidor personalizado)
