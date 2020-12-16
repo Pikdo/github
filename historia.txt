@@ -5,6 +5,7 @@ Aprendiendo github en Platzi
 Curso de Git y github
 Notas del curso:
 
+GIT
 - git init crea (stage y repo local)
 - git add .  (agrega cambios al stage)
 - git commint -m "mensaje" (agrega cambios al repo local)
@@ -29,6 +30,12 @@ BRANCHES
 -- git branch -d <nombre_branch>   (Elimina un branch,pero válida si se ha hecho merge de sus cambios)
 -- git branch -D <nombre_branch>   (Elimina un branch, pero no válida el merge de sus cambios)
 
+GITHUB
+- git remote add origin <url_github> (asocia un repo_local con un repo_remoto)
+- git remote -v  (muestra el origin remoto asociado)
+- git pull origin master (trae cambios del repo_remoto al repo_local, se puede usar fetch)
+- git pull origin master --allow-unrelated-histories (para corregir "unrelated histories" debido a repo_loca y remoto nunca relacionados)
+- git push origin master (envia cambios del repo_local al repo_remoto)
 
 Áreas de trabajo
 Working copy->staging->repo_local->repo_remoto(gitlab, github, servidor personalizado)
