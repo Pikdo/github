@@ -31,11 +31,12 @@ BRANCHES
 -- git branch -D <nombre_branch>   (Elimina un branch, pero no válida el merge de sus cambios)
 
 GITHUB
+- github realizó un cambio en el nombre de la rama principal por MAIN.
 - git remote add origin <url_github> (asocia un repo_local con un repo_remoto)
 - git remote -v  (muestra el origin remoto asociado)
-- git pull origin master (trae cambios del repo_remoto al repo_local, se puede usar fetch)
-- git pull origin master --allow-unrelated-histories (para corregir "unrelated histories" debido a repo_loca y remoto nunca relacionados)
-- git push origin master (envia cambios del repo_local al repo_remoto)
+- git pull origin <nombre_branch> (trae cambios del repo_remoto al repo_local, se puede usar fetch)
+- git pull origin <nombre_branch> --allow-unrelated-histories (para corregir "unrelated histories" debido a repo_loca y remoto nunca relacionados)
+- git push origin <nombre_branch> (envia cambios del repo_local al repo_remoto)
 
 Áreas de trabajo
 Working copy->staging->repo_local->repo_remoto(gitlab, github, servidor personalizado)
