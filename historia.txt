@@ -38,5 +38,14 @@ GITHUB
 - git pull origin <nombre_branch> --allow-unrelated-histories (para corregir "unrelated histories" debido a repo_loca y remoto nunca relacionados)
 - git push origin <nombre_branch> (envia cambios del repo_local al repo_remoto)
 
+LLAVES SSH (Privadas y Públicas)
+- Cifrado simétrico de un solo camino
+- Protocolo SSH (Secure Shell)
+- ssh-keygen -t rsa -b 4096 -C "correo_github" (crear llave ssh, en .ssh)
+- eval $(ssh-agent) revisar si el agente de ssh esta corriendo
+- ssh-add ~/.ssh/id_rsa (agregar la llave al sistema)
+
+
+
 Áreas de trabajo
 Working copy->staging->repo_local->repo_remoto(gitlab, github, servidor personalizado)
