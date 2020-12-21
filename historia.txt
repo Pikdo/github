@@ -51,8 +51,9 @@ TAG
  git tag -a v0.1 -m "mensaje" commit_hash (Crea un tag en base a un commit_hash)
  git tag (muestra los tags que existen)
  git show-ref --tags (muestra el tag asociado al repo_local)
- git push origin --tags (enviar los tags al repo_remoto)
+ git push origin --tags (enviar los tags al repo_remoto, agregar al comando :refs/tags/<nombre_tag> para borrar)
  git tag -d <nombre_tag> (borrar el tag)
+
 
 Áreas de trabajo
 - Working copy->staging->repo_local->repo_remoto(gitlab, github, servidor personalizado)
