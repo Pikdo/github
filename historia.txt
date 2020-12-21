@@ -44,7 +44,7 @@ LLAVES SSH (Privadas y Públicas)
 - ssh-keygen -t rsa -b 4096 -C "correo_github" (crear llave ssh, en .ssh)
 - eval $(ssh-agent) revisar si el agente de ssh esta corriendo
 - ssh-add ~/.ssh/id_rsa (agregar la llave al sistema)
-
+- git remote set-url origin <url_ssh_github>
 
 
 Áreas de trabajo
