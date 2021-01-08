@@ -30,13 +30,14 @@ BRANCHES
 -- git branch -d <nombre_branch>   (Elimina un branch,pero válida si se ha hecho merge de sus cambios)
 -- git branch -D <nombre_branch>   (Elimina un branch, pero no válida el merge de sus cambios)
 
-GITHUB
+GITHUB ---
 - github realizó un cambio en el nombre de la rama principal por MAIN.
 - git remote add origin <url_github> (asocia un repo_local con un repo_remoto)
 - git remote -v  (muestra el origin remoto asociado)
 - git pull origin <nombre_branch> (trae cambios del repo_remoto al repo_local, se puede usar fetch)
-- git pull origin <nombre_branch> --allow-unrelated-histories (para corregir "unrelated histories" debido a repo_loca y remoto nunca relacionados)
-- git push origin <nombre_branch> (envia cambios del repo_local al repo_remoto)
+- git pull origin <nombre_branch> --allow-unrelated-histories (para corregir "unrelated histories" debido a repo_local y remoto nunca relacionados)
+- git push origin <nombre_branch> (envia branch del repo_local al repo_remoto)
+- git push origin --delete <nombre_branch> (elimina un brach del repo_remoto)
 
 LLAVES SSH (Privadas y Públicas)
 - Cifrado simétrico de un solo camino
@@ -46,14 +47,16 @@ LLAVES SSH (Privadas y Públicas)
 - ssh-add ~/.ssh/id_rsa (agregar la llave al sistema)
 - git remote set-url origin <url_ssh_github> (cambiar la url del origin)
 
-TAG
+TAGs
  git log --all --graph --decorate --oneline (Muestra un árbol con los commit_hash)
  git tag -a v0.1 -m "mensaje" commit_hash (Crea un tag en base a un commit_hash)
  git tag (muestra los tags que existen)
  git show-ref --tags (muestra el tag asociado al repo_local)
  git push origin --tags (enviar los tags al repo_remoto, agregar al comando :refs/tags/<nombre_tag> para borrar)
  git tag -d <nombre_tag> (borrar el tag)
+ 
 
+gitk muestra una herramienta visual con los cambios 
 
 Áreas de trabajo
 - Working copy->staging->repo_local->repo_remoto(gitlab, github, servidor personalizado)
