@@ -29,6 +29,7 @@ BRANCHES
       -- En caso de conflicto se debe corregir manualmente
 -- git branch -d <nombre_branch>   (Elimina un branch,pero válida si se ha hecho merge de sus cambios)
 -- git branch -D <nombre_branch>   (Elimina un branch, pero no válida el merge de sus cambios)
+- git merge origin/main (Actualiza un branch con el main, desde otro branch)
 
 GITHUB ---
 - github realizó un cambio en el nombre de la rama principal por MAIN.
