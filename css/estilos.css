@@ -35,7 +35,7 @@ body {
 .footer {
     width: 100%;
     height: 100px;
-    background-color: dodgerblue;
-    position: absolute;
-    bottom: 0;
+    background-color: #c6c6c6;
+    display:inline-block;
+    margin: 0 auto;
 }
