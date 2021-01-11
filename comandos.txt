@@ -61,6 +61,8 @@ WORKFLOW
 - solicitar acceso al encargado del repo_remoto (enviar username o email)
 - encargado autoriza acceso con username o email
 - realizar commits y push al repo_remoto
+- pull request (espacio intermedio el repo_remoto para coordinar cambios y aprobarlos en github)
+-
 
 
 gitk muestra una herramienta visual con los cambios 
