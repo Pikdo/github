@@ -69,12 +69,8 @@ WORKFLOW
   -- git pull upstream main
 - Travis CI (Para gestionar Integración Continua, privativo)
 - Jenkins (Para gestionar Integración Continua, free)
--  .gitignore (Archivo de lista de archivos que git ignorara para no rastrearlo en el repo_local)
+- .gitignore (Archivo de lista de archivos que git ignorara para no rastrearlo en el repo_local)
 
-PRACTICAR 
- - Crear cuenta github y agregar colaboradores
- - realizar pull request
- - realizar fork y upstreams
 
 
 gitk muestra una herramienta visual con los cambios 
