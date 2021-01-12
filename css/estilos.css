@@ -46,7 +46,13 @@ body {
     padding: 0.2rem;
     border: 0.2rem dotted dodgerblue;
     height: 100%;
-    overflow-y: scroll;
+    overflow-y: scroll;    
+}
+.quote{
+    position: absolute;;
+    right: 30px;
+    top: 50px;
+    box-shadow: 5px 2px 10px 0px #333;
 }
 
 .footer {

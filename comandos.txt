@@ -67,6 +67,10 @@ WORKFLOW
 - upstream (se utiliza para crear una rama que permite traer cambios desde otro repo_remoto, cuando se trabaja con forks)
   -- git remote add upstream url_repo_remoto (agregar una fuente de origen nueva)
   -- git pull upstream main
+- Travis CI (Para gestionar Integración Continua, privativo)
+- Jenkins (Para gestionar Integración Continua, free)
+-  .gitignore (Archivo de lista de archivos que git ignorara para no rastrearlo en el repo_local)
+
 PRACTICAR 
  - Crear cuenta github y agregar colaboradores
  - realizar pull request
