@@ -73,7 +73,7 @@ WORKFLOW
 
 
 
-gitk muestra una herramienta visual con los cambios 
+gitk es una herramienta que muestra los commit de git de forma visual 
 
 Áreas de trabajo
 - Working copy->staging->repo_local->repo_remoto(gitlab, github, servidor personalizado)
