@@ -6,9 +6,10 @@ Curso de Git y github
 Notas del curso:
 
 GIT
-- git init crea (stage y repo local)
+- git init (crea stage y repo local)
 - git add .  (agrega cambios al stage)
 - git commint -m "mensaje" (agrega cambios al repo local)
+  -- -am (agregar los cambios y realiza el commit de archivos ya traqueados)
 - git status (ver estado de los cambios)
 - git show <nombre_archivo>  (Muestra el contendo y los cambios que a sufrido el archivo)
 - git log (ver la historia de los commits realizados)
@@ -90,6 +91,10 @@ STASH
  -- stash@(numero_stash) (Se puede especificar el número de stash)
 - git stash clear (limpia todo el stash)
 
+CLEAN
+- git clean -f (Eliminar archivos nuevos no traqueados, excluye lo indicado en .gitignore)
+- git clean --dry-run (Lista los archivos no trackeados nuevos)
+- git clean -fd (Elimina archivos nuevos y carpetas no traqueadas)
 
 
 gitk es una herramienta que muestra los commit de git de forma visual 
