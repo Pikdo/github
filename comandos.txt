@@ -80,9 +80,16 @@ REBASE
 STASH
 - git stash (Guarda cambios en lugar temporal y reversa esos cambios)
 - git stash list (Ver los cambios)
-- git stash pop (regresar a un cambio guardado)
+- git stash pop (regresar a cambios guardados del stash)
+  -- git stash pop stash@(numero_stash se obtiene con git stash list)
 - git stash branch <branch_name> (Crea una rama con el cambio temporal)
-- git stash save "Descripción del stash"
+   -- stash@(numero_stash) (Se puede usar el número de stash)
+- git stash save "Descripción del stash" (Guarda un stash con nombre)
+- git stash apply stash@(numero_stash)  (Retoma cambios de una posició específica del stash)
+- git stash drop (Elimina cambios del stash)
+ -- stash@(numero_stash) (Se puede especificar el número de stash)
+-git stash clear (limpia todo el stash)
+
 
 
 gitk es una herramienta que muestra los commit de git de forma visual 
