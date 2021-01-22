@@ -71,6 +71,11 @@ WORKFLOW
 - Jenkins (Para gestionar Integración Continua, free)
 - .gitignore (Archivo de lista de archivos que git ignorara para no rastrearlo en el repo_local)
 
+REBASE
+- git rebase <branch> (Se utiliza para unir cambios y unir historias de commits entre branches)
+ -- git rebase <branch_main>  (1° hacer rebase desde otro branch hacia el branch_main)
+ -- git rebase <otro_branch> (2° hacer rebase desde el branch_main hacia el otro_branch )
+ -- usar solo en repos locales, ya que en repo remotos no es buena práctica por que sobreescribe las historias de los commits
 
 
 gitk es una herramienta que muestra los commit de git de forma visual 
