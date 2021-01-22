@@ -92,9 +92,10 @@ STASH
 - git stash clear (limpia todo el stash)
 
 CLEAN
-- git clean -f (Eliminar archivos nuevos no traqueados, excluye lo indicado en .gitignore)
-- git clean --dry-run (Lista los archivos no trackeados nuevos)
+- git clean -f (Eliminar archivos nuevos no traqueados, excluye los ignorados en .gitignore)
+- git clean --dry-run o -n(Lista los archivos no trackeados nuevos)
 - git clean -fd (Elimina archivos nuevos y carpetas no traqueadas)
+- git clean -x (Elimina incluso los archivos ignorados)
 
 
 gitk es una herramienta que muestra los commit de git de forma visual 
