@@ -77,6 +77,13 @@ REBASE
  -- git rebase <otro_branch> (2° hacer rebase desde el branch_main hacia el otro_branch )
  -- usar solo en repos locales, ya que en repo remotos no es buena práctica por que sobreescribe las historias de los commits
 
+STASH
+- git stash (Guarda cambios en lugar temporal y reversa esos cambios)
+- git stash list (Ver los cambios)
+- git stash pop (regresar a un cambio guardado)
+- git stash branch <branch_name> (Crea una rama con el cambio temporal)
+- git stash save "Descripción del stash"
+
 
 gitk es una herramienta que muestra los commit de git de forma visual 
 
