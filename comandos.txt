@@ -106,9 +106,9 @@ CASOS EMERGENCIA
  -- Realizamos el cambio faltante
  -- git commit -amend (para agregar el cambio al último commit e inclusive modificar el texto enviado \m/)
 
-2- Volver a un commit incluso despúes de haber realizado commit, en caso de errores (mala práctica, usar con discreción)
- -- git reflog (muestra todos los cambios realizados sin importar que se hayan borrado)
- -- git reset hard <commit_hash>
+2- Volver a un commit incluso despúes de haber realizado commit, en caso de errores 
+ -- git reflog (muestra todos los cambios realizados sin importar que se hayan borrado, por hash_commit y HEAD@{n})
+ -- git reset --hard <commit_hash> (mala práctica, usar con discreción)
 
  
 gitk es una herramienta que muestra los commit de git de forma visual 
