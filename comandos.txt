@@ -97,6 +97,10 @@ CLEAN
 - git clean -fd (Elimina archivos nuevos y carpetas no traqueadas)
 - git clean -x (Elimina incluso los archivos ignorados)
 
+CHERRY-PICK
+- git cherry-pick <hash_commit> (Traerme cambios de un commit específico, sin importar el branch)
+-- es una mala práctica, usar con discreción, por que se generan diferencias en la historia de cambios
+
 
 gitk es una herramienta que muestra los commit de git de forma visual 
 
