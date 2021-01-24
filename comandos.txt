@@ -1,9 +1,4 @@
-Jose Alejandro Picado Brenes 
-33 años . 10 meses
-Costarricense
-Aprendiendo github en Platzi
-Curso de Git y github
-Notas del curso:
+Notas de Git y Github profesional
 
 GIT https://git-scm.com/docs 
 - git init (crea stage y repo local)
@@ -31,6 +26,8 @@ BRANCHES
 -- git branch -d <nombre_branch>   (Elimina un branch,pero válida si se ha hecho merge de sus cambios)
 -- git branch -D <nombre_branch>   (Elimina un branch, pero no válida el merge de sus cambios)
 - git merge origin/main (Actualiza un branch con el main, desde otro branch)
+- git branch -r (Muestra las ramas remotas)
+- git branch -a (Muestra todas la ramas, útil para saber cuales necesitan push)
 
 GITHUB ---
 - github realizó un cambio en el nombre de la rama principal por MAIN.
@@ -40,6 +37,8 @@ GITHUB ---
 - git pull origin <nombre_branch> --allow-unrelated-histories (para corregir "unrelated histories" debido a repo_local y remoto nunca relacionados)
 - git push origin <nombre_branch> (envia branch del repo_local al repo_remoto)
 - git push origin --delete <nombre_branch> (elimina un brach del repo_remoto)
+- Notas: tiene estadísticas de los cambios, contribuidores
+
 
 LLAVES SSH (Privadas y Públicas)
 - Cifrado simétrico de un solo camino
@@ -116,8 +115,31 @@ CASOS EMERGENCIA
 - git log -S "palabra" (Busca la "palabra" en los commits) https://git-scm.com/docs/git-log 
  -- git log --grep "palabra" (Busca en las notas de los commits)
 
- 
-gitk es una herramienta que muestra los commit de git de forma visual 
+COMANDOS ÚTILES
 
-Áreas de trabajo
+SHORTLOG
+- git shortlog (Lista los commits realizados por usuario)
+- git shortlog -sn (Lista los usuarios y la cantidad de sus commits)
+- git shortlog -sn --all (Lista todos los commits incluso los borrados)
+- git shortlog -sn --all --no-merges (Lista sin considerar los merges)
+
+ALIAS
+- git config --global alias.nombre_alias "comando" (Crea un comando alias de git)
+  -- Ejemplo: git config --global alias.stats "shortlog -sn"
+- git config --list | grep alias (Consultar los alias git)
+- git config --global --unset alias.nombre_alias
+
+BLAME
+- git blame <archivo> -c (Muestra quién realizó los cambios de cada línea, -c identa)
+- git blame -L20,35(-L muestra solo líneas 20 a la 35)
+
+HELP
+- git comando --help (Abre el manual de como funciona un comando)
+
+- gitk es una herramienta que muestra los commit de git de forma visual 
+
+
+
+AREAS DE TRABAJO
 - Working copy->staging->repo_local->repo_remoto(gitlab, github, servidor personalizado)
+
