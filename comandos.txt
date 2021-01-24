@@ -39,8 +39,7 @@ GITHUB ---
 - git push origin --delete <nombre_branch> (elimina un brach del repo_remoto)
 - Notas: tiene estadísticas de los cambios, contribuidores
 
-
-LLAVES SSH (Privadas y Públicas)
+REMOTE REPOS y SSH
 - Cifrado simétrico de un solo camino
 - ssh : se utilizar Protocolo SSH (Secure Shell)
 - ssh-keygen -t rsa -b 4096 -C "correo_github" (crear llave ssh, en .ssh)
