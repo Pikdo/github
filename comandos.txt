@@ -1,6 +1,6 @@
-Notas de Git y Github profesional
+Resumen de comandos y notas de Git y Github
 
-GIT https://git-scm.com/docs 
+GIT  -- docs: https://git-scm.com/docs 
 - git init (crea stage y repo local)
 - git add .  (agrega cambios al stage)
 - git commint -m "mensaje" (agrega cambios al repo local)
@@ -29,7 +29,7 @@ BRANCHES
 - git branch -r (Muestra las ramas remotas)
 - git branch -a (Muestra todas la ramas, útil para saber cuales necesitan push)
 
-GITHUB ---
+GITHUB  -- https://docs.github.com/es
 - github realizó un cambio en el nombre de la rama principal por MAIN.
 - git remote add origin <url_github> (asocia un repo_local con un repo_remoto)
 - git remote -v  (muestra el origin remoto asociado)
@@ -102,7 +102,7 @@ CHERRY-PICK
 CASOS EMERGENCIA
 1- Cuando me faltó un cambio en un commit:
  -- Realizamos el cambio faltante
- -- git commit -amend (para agregar el cambio al último commit e inclusive modificar el texto enviado \m/)
+ -- git commit --amend (para agregar el cambio al último commit e inclusive modificar el texto enviado \m/)
 
 2- Volver a un commit incluso despúes de haber realizado commit, en caso de errores 
  -- git reflog (muestra todos los cambios realizados sin importar que se hayan borrado, por hash_commit y HEAD@{n})
@@ -135,9 +135,8 @@ BLAME
 HELP
 - git comando --help (Abre el manual de como funciona un comando)
 
+ADICIONALES
 - gitk es una herramienta que muestra los commit de git de forma visual 
-
-
 
 AREAS DE TRABAJO
 - Working copy->staging->repo_local->repo_remoto(gitlab, github, servidor personalizado)

@@ -1,11 +1,17 @@
 # Práctica GITHUB
 
-Proyecto de práctica de github con comandos y puesta en práctica un layout web.
+Proyecto de práctica de github con comandos y puesta en práctica de un  layout web.
 
-> git
-> github
+## Temática
+* git
+* github
+* buenas prácticas
 
-*>* Créditos >......
-    >> alito 2021
+## Créditos
+>Fuente: <a href="https://platzi.com/clases/git-github/" target="_blank">Curso Profesional de Git y Gihub de Platzi</a>
+
+>Autor:<a href="https://platzi.com/p/pikdo/" target="_black">@Pikdo 2021</a>
+
+
 
 
