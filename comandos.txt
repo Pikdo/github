@@ -5,7 +5,7 @@ Aprendiendo github en Platzi
 Curso de Git y github
 Notas del curso:
 
-GIT
+GIT https://git-scm.com/docs 
 - git init (crea stage y repo local)
 - git add .  (agrega cambios al stage)
 - git commint -m "mensaje" (agrega cambios al repo local)
@@ -109,6 +109,12 @@ CASOS EMERGENCIA
 2- Volver a un commit incluso despúes de haber realizado commit, en caso de errores 
  -- git reflog (muestra todos los cambios realizados sin importar que se hayan borrado, por hash_commit y HEAD@{n})
  -- git reset --hard <commit_hash> (mala práctica, usar con discreción)
+
+3- Buscar palabras 
+- git grep "palabra" (Busca la "palabra" en los archivos) https://git-scm.com/docs/git-grep
+ -- -n cuenta la cantidad de apariciones de la palabra
+- git log -S "palabra" (Busca la "palabra" en los commits) https://git-scm.com/docs/git-log 
+ -- git log --grep "palabra" (Busca en las notas de los commits)
 
  
 gitk es una herramienta que muestra los commit de git de forma visual 
