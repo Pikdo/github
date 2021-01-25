@@ -1,18 +1,18 @@
-Resumen de comandos y notas de Git y Github
+.:: Resumen de comandos y notas de Git y Github ::.
 
 GIT  -- docs: https://git-scm.com/docs 
 - git init (crea stage y repo local)
 - git add .  (agrega cambios al stage)
 - git commint -m "mensaje" (agrega cambios al repo local)
-  -- -am (agregar los cambios y realiza el commit de archivos ya traqueados)
+  -am (agregar los cambios y realiza el commit de archivos ya traqueados)
 - git status (ver estado de los cambios)
 - git show <nombre_archivo>  (Muestra el contendo y los cambios que a sufrido el archivo)
 - git log (ver la historia de los commits realizados)
 - git config --global user.name o user.email (cambiar usuario/correo)
 - git diff (ver diferencias entre commits)
 - git reset (volver a un commit pasado definitivamente en todo)
-   -- hard: Borra todos los cambios hasta el commit
-   -- soft: Borra los cambios hasta el commit pero guarda en stage
+   --hard: Borra todos los cambios hasta el commit
+   --soft: Borra los cambios hasta el commit pero guarda en stage
    HEAD quitar archivos del stage
 - git rm --cache (Elimina archivos del stage)
 - git rm --force (Elimina archivos de todo git y disco duro)
@@ -48,12 +48,12 @@ REMOTE REPOS y SSH
 - git remote set-url origin <url_ssh_github> (cambiar la url del origin)
 
 TAGs
- git log --all --graph --decorate --oneline (Muestra un árbol con los commit_hash)
- git tag -a v0.1 -m "mensaje" commit_hash (Crea un tag en base a un commit_hash)
- git tag (muestra los tags que existen)
- git show-ref --tags (muestra el tag asociado al repo_local)
- git push origin --tags (enviar los tags al repo_remoto, agregar al comando :refs/tags/<nombre_tag> para borrar)
- git tag -d <nombre_tag> (borrar el tag)
+- git log --all --graph --decorate --oneline (Muestra un árbol con los commit_hash)
+- git tag -a v0.1 -m "mensaje" commit_hash (Crea un tag en base a un commit_hash)
+- git tag (muestra los tags que existen)
+- git show-ref --tags (muestra el tag asociado al repo_local)
+- git push origin --tags (enviar los tags al repo_remoto, agregar al comando :refs/tags/<nombre_tag> para borrar)
+- git tag -d <nombre_tag> (borrar el tag)
  
 WORKFLOW
 - git clone <url https del repo_remoto> (para clonar el repositorio)
