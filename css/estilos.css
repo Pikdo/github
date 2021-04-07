@@ -1,3 +1,9 @@
+:root{
+    --royal-blue:royalblue;
+    --warm-black : #333;
+    --alice-blue: aliceblue;
+}
+
 * {
     padding: 0;
     margin: 0;
@@ -6,77 +12,82 @@
 
 html{
     font-size: 62.5%;
-    font-family: 'Courier New', Courier, monospace;
+    font-family: 'Encode Sans', sans-serif;
 }
-
-body {
-    font-size: 1.6rem;
-    height: 100vh;
-    width: 100vw;
-    display:flex;    
-    flex-direction: column;
-}
-
-:root{
-    --bars:royalblue;   
-}
-  
 
 .header{
-    width: 100%;
-    height: 100px;
-    background-color: var(--bars);
-    display: flex;
-    flex-direction: row;
-    align-items: center;
+    position: relative;
+    display: flex;    
+    flex-direction: column;
     justify-content: center;
+    align-items: center;
+    width: 100%;
+    min-width: 320px;
+    height: 100px;
+    background-color: var(--royal-blue);    
 }
 
-.logo{
-    height: 70px;
-    width: 320px;
-    margin-left: 50px;    
+.header--logo{
+    height: 30px;
+    width: 150px;
+    margin-top: 20px;
 }
 
-.titulo {
-    padding-left: 50px;
-}
-.titulo >span {
-    font-size: 3.9rem;
-    font:bold;
+.header--titulo {
+    width: 90%;
+    margin: 10px auto;
+    text-align: center;
+    font-size: 3rem;
+    line-height: 2rem;
+    font-weight: bold;
+    color: var(--warm-black);
 }
 
-.main {
-    margin: 0.5rem;
-    padding: 0.5rem;    
-    height: 100%;
-    overflow-y: scroll;
-    color: aliceblue;
-    background-color: #333;
+.main {    
+    width: 100%;
+    padding: 5px;
+    background-color: var(--warm-black);
 }
-.quote{
-    width: 250px;
-    height: 100px;    
-    position: absolute;;
-    right: 30px;
-    bottom: 20px; 
-    background-color: #333;
-    color: #c6c6c6;
-    border: 0.2rem solid #fff;
-    padding: 0.5rem;
-    font-size: 1.6rem;
-    text-align: justify;    
+
+.main--container{
+    position: relative;    
+    width: 100%;
+    border-left: 5px solid var(--alice-blue);
+    padding-left: 5px;
+}
+
+.main--notas{
+    font-size: 1.5rem;
+    color: var(--alice-blue);
+    padding: 10px;
+}
+
+.main-quote {
+    display: none;
 }
 
 .footer {
     width: 100%;
-    height: 100px;
-    background-color: var(--bars);
+    height: 150px;
+    background-color: var(--royal-blue);
     color:aliceblue;
-    display:inline-block;
-    margin: 0 auto;
+    padding-top: 20px;
+    padding-left: 50px;   
 }
 
-.footer a:visited {
-    color:aliceblue;
+.footer--creditos ul{
+    list-style: none;
 }
+
+.footer--creditos li{
+    padding: 5px 0;
+    font-size: 1.5rem;
+    line-height: 1.5rem;
+    font-weight: bold;
+}
+
+.footer--creditos a{
+    text-decoration: none;
+    color: var(--alice-blue);
+}
+

@@ -5,24 +5,41 @@
         <meta name="proyecto1" content="Práctica de github">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <meta http-equiv="Content-Type" content="text/html;charset=UTF-8">
-        <link rel="stylesheet" href="css/estilos.css">
-        <script src="dist/main.js"></script>
+        <link rel="preconnect" href="https://fonts.gstatic.com">
+        <link href="https://fonts.googleapis.com/css2?family=Encode+Sans:wght@100;500;700&display=swap" rel="stylesheet">        
+        <link rel="stylesheet" href="./css/estilos.css">
+        <link rel="stylesheet" href="./css/tablets.css" media="(min-width:930px)">
+        <script src="./src/index.js"></script>
     </head>
     <body>
         <header class="header">
-            <div class="titulo"><span>Comandos y notas</span></div>
-            <img class="logo" src="img/git_github.png" alt="logo">
+            <img class="header--logo" src="img/git_github.png" alt="logo">
+            <h1 class="header--titulo">Comandos y notas</h1>
         </header>
         <main id="main" class="main">
-            <span class="quote">I love being wrong because that means in that instant, I learned something new that day.<br> Neil deGrasse Tyson</span>
-            <span id="notas"></span>
+            <span class="main-quote">I love being wrong because that means in that instant, I learned something new that day.<br> Neil deGrasse Tyson</span>
+            <div class="main--container">
+                <p id="notas" class="main--notas"></p>
+            </div>
         </main>
         <footer class="footer">
-            <ul>
-                <li>Créditos</li>                 
-                <li>Autor: <a href="https://platzi.com/p/pikdo/" target="_black">@Pikdo</a></li>
-                <li>Fuente:<a href="https://platzi.com/clases/git-github/" target="_blank">Curso Profesional de Git y Gihub de Platzi</a></li>
-            </ul>
+
+            <section>
+                <ul class="footer--creditos">
+                    <li>
+                        Autor: Alejandro Picado
+                    </li>
+                    <li>
+                        <a href="https://twitter.com/Pikdo">Twitter:@Pikdo</a>
+                    </li>
+                    <li>                        
+                        <a href="https://platzi.com/p/pikdo/" target="_black">Platzi:@Pikdo</a>
+                    </li>
+                    <li>
+                        <a href="https://platzi.com/clases/git-github/" target="_blank">Curso Profesional de Git y Github de Platzi</a>
+                    </li>
+                </ul>
+            </section>            
         </footer>
     </body>
 </html>
