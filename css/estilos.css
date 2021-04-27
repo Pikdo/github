@@ -47,8 +47,7 @@ html{
 .main {
     width: 100%;
     min-width: 320px;
-    padding: 5px;
-    background-color: var(--warm-black);
+    padding: 5px;    background-color: var(--warm-black);
 }
 
 .main--container{

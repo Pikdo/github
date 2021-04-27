@@ -1,14 +1,14 @@
 .main-quote {
-    position: fixed;
-    display: block;
-    width: 250px;
-    height: 100px;
-    right: 30px;
-    top: 100px;
-    border: 2px solid #fff;
-    padding: 5px;
-    background-color: var(--warm-black);
-    color: #c6c6c6;    
-    font-size: 1.6rem;
-    text-align: justify;
+	position: fixed;
+	display: block;
+	width: 250px;
+	height: 100px;
+	right: 30px;
+	top: 100px;
+	border: 2px solid #fff;
+	padding: 5px;
+	background-color: var(--warm-black);
+	color: #c6c6c6;
+	font-size: 1.6rem;
+	text-align: justify;
 }
