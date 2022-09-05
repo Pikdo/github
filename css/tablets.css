@@ -2,7 +2,7 @@
 	position: fixed;
 	display: block;
 	width: 250px;
-	height: 100px;
+	height: inherit;
 	right: 30px;
 	top: 100px;
 	border: 2px solid #fff;
